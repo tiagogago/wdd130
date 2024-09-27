@@ -1,28 +1,37 @@
+:root {
+  --primary-color: steelblue;
+  --text-color: white;
+  --image-width: 150px;
+  --image-height: auto;
+  --border-color: rgba(0, 0, 0, 0.2);
+  --padding: 10px;
+}
+
 nav {
-  background-color: steelblue;
-  padding: 10px;
+  background-color: var(--primary-color);
+  padding: var(--padding);
 }
 
 nav a {
-  color: white;
+  color: var(--text-color);
   display: block;
   padding: 20px;
 }
 
 h1 {
-  color: steelblue;
+  color: var(--primary-color);
 }
 
 img {
-  width: 150px;
-  height: auto;
-  border: 1px solid steelblue;
+  width: var(--image-width);
+  height: var(--image-height);
+  border: 1px solid var(--primary-color);
   padding: 2px;
   box-shadow: 0 0 30px gray;
 }
 
 p {
-  padding: 10px;
+  padding: var(--padding);
 }
 
 main {
@@ -32,7 +41,7 @@ main {
 aside {
   width: 20rem;
   margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-color);
   padding: 1px;
   background-color: #eee;
   text-align: center;
@@ -40,12 +49,12 @@ aside {
 
 aside img {
   width: 200px;
-  height: auto;
+  height: var(--image-height);
 }
 
 main img {
-  width: 150px;
-  height: auto;
+  width: var(--image-width);
+  height: var(--image-height);
 }
 
 p {
