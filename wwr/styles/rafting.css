@@ -161,6 +161,8 @@ nav {
 }
 .section-gallery {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section-history {
   padding: 40px 20px;
