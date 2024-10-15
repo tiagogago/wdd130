@@ -12,7 +12,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 420px; /* Increased width */
+  width: 420px;
 }
 .contact-form h2 {
   margin-top: 0;
@@ -35,7 +35,7 @@ body {
 }
 .contact-form textarea {
   height: 100px;
-  resize: both; /* Allow resizing */
+  resize: both;
 }
 .contact-form button {
   width: 100%;
