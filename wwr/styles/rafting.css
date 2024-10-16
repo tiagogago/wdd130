@@ -282,7 +282,7 @@ figcaption {
 .checkbox input[type="checkbox"] {
   margin-right: 10px;
 }
-.checkbox label{
+.checkbox label {
   white-space: nowrap;
   max-width: 200px;
   text-overflow: ellipsis;
@@ -323,6 +323,6 @@ figcaption {
 iframe {
   border: 0;
 }
-#wireframe{
+#wireframe {
   color: white;
 }
