@@ -320,3 +320,9 @@ figcaption {
   align-items: center;
   font-size: 36px;
 }
+iframe {
+  border: 0;
+}
+#wireframe{
+  color: white;
+}
