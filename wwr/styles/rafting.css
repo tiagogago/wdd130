@@ -12,11 +12,13 @@ h5,
 h6 {
   font-family: "Merriweather", serif;
   font-size: 2rem;
+  color: #333;
 }
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 header {
   display: flex;
@@ -214,6 +216,88 @@ figcaption {
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
+}
+.team-member {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.team-member p {
+  margin: 5px 0;
+}
+.contact-info,
+.contact-form {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  text-align: left;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-info div {
+  width: 45%;
+}
+.contact-info p {
+  margin: 5px 0;
+}
+.contact-info i {
+  margin-right: 10px;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form input,
+.contact-form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+.contact-form input[type="radio"] {
+  width: auto;
+  margin-right: 10px;
+}
+.contact-form label {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.checkbox input[type="checkbox"] {
+  margin-right: 10px;
+}
+.checkbox label{
+  white-space: nowrap;
+  max-width: 200px;
+  text-overflow: ellipsis;
+}
+.contact-form button {
+  background-color: #ff6700;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.contact-form button:hover {
+  background-color: #e03e00;
 }
 .footer {
   background-color: #3a6ea5;
